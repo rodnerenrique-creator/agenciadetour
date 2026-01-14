@@ -1,0 +1,93 @@
+body{
+    background-color:beige;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header{
+    background-color: white;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://es.gizmodo.com/app/uploads/2025/05/Diseno-sin-titulo-49-10.jpg);
+}
+
+
+header {
+  position: relative;
+  padding: 20px;
+  background-color: #f0f0f0;
+ }
+
+
+.menu{
+  list-style: none;
+   display: flex;
+   gap: 20px;
+   position: absolute;
+   top: 10px;   
+   right: 20px;
+    margin: 0;
+   padding: 0;   
+}
+
+
+  .menu li {
+  padding: 5px 10px; 
+   border-radius: 4px;
+   transition: 0.3s;
+}
+
+.menu li:hover{
+  background-color: #ddd;
+  }
+
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header img{
+    width: 25%;
+}
+header img:hover{
+    transform: scale(1.05);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 320px;                  
+  padding: 15px;                 
+  background-color: #f8f8d8;      
+  border: 3px solid #b7b7a4;     
+  border-radius: 15px;            
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.08);       
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
